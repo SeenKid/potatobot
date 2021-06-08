@@ -5,7 +5,7 @@ const timestamp = require("console-timestamp");
 let prefix = "sb."
 
 // made by Tweek with ♥ | Don't copy or share this. This is private.
-client.login("ODIzODU5NjM0NDEwMjI1NjY0.YFm9Ew.oIuhdiBI9PR4iXaylOXmIqyHE6Q")
+client.login("")
 
 client.on("ready", async () => {
     setInterval(changing_status, 15000);
