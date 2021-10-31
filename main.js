@@ -47,7 +47,7 @@ if (!tweek)
     	
 message.channel.send('Restarting... :white_check_mark:').then(m => {
         client.destroy().then(() => {
-          client.login('NzM1OTIyMzgwNzc3NzE3ODIy.XxnThA.TcJ5POKZwF5YAWue1lBr8tTBt5E');
+          client.login('');
         });
       });	
     }
@@ -79,22 +79,6 @@ if (message.content === prefix + "ping") {
         });
     }
 })
-
-/* embed de kick
-
-		 let user = message.mentions.users.first();
-		 let logchannel = message.guild.channels.find('name', 'logs');
-			if (!logchannel) return message.reply('I cannot find a "logs" channel');
-				const embed = new Discord.RichEmbed()
- 					 .setColor(0xFF0000)
-  					 .setTimestamp()
-  					 .addField('Action:', 'Kick')
-  					 .addField('User:', `${user.username} || ID : (${user.id})`)
-  					 .addField('Moderator:', `${message.author.username}`)
-  message.channel.send(`:hammer: **KICKED**! I've logged the kick in the logs channel.`)
-  return client.channels.get(logchannel.id).send({embed});
-
-*/
 
 
 client.on('message', message => {
