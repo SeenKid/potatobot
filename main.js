@@ -4,7 +4,13 @@ const ms = require("ms");
 const timestamp = require("console-timestamp");
 let prefix = "sb."
 
-// made by Tweek with ♥ | Don't copy or share this. This is private.
+// made by Tweek with ♥ (https://github.com/SeenKid/) | Credit me if any modifications are done or if you share this file.
+
+/* 
+Actually need to add things and update this repo
+Bot got updated since time of this.
+You can still use this base !
+*/ 
 client.login("")
 
 client.on("ready", async () => {
