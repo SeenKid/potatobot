@@ -91,9 +91,6 @@ client.on('message', message => {
 			if (message.content === "toz") {
                 message.reply("Mec gentil 😀 réservé, parfois un peu chiant mais c'est amusant 😁 Reste toi même bg");
             }
-			if (message.content === "gus") {
-                message.reply("super sympa, gentille ! :medal:  meilleur ficus de l'année 2021 :medal:");
-            }
             if (message.content === "cudder") {
                 message.reply("Super gentil. Anti-flemme humain ! https://discord.gg/TVv7z4jNcX");
             }
